@@ -4,7 +4,7 @@ POC - Evaluating tool for canary smoke test
 ## Steps for running the test:
 1. Fork the repo 
 2. Open Terminal on your Mac
-3. Clone the repo - `git@github.com:<your-github-account>/Nightwatch-POC.git`
+3. Clone the repo - `git clone git@github.com:<your-github-account>/Nightwatch-POC.git`
 2. Go to the project folder and run command - `npm install`
 3. Run command - `node nightwatch -e chrome -a signup --reporter html-reporter.js`
 4. Console should display output similar to:
