@@ -32,3 +32,5 @@ Report generated: /Users/priyankajoshi/Documents/POC/repo/Nightwatch-POC/reports
 5. Check the reports folder for HTML Report
 
 ![HTML_Report](https://user-images.githubusercontent.com/25004490/43318389-3afc85f4-91be-11e8-8215-4b798c652c2f.png)
+
+6. In case of failures screenshots are generated and saved in screenshots folder.
