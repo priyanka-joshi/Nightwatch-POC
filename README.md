@@ -31,4 +31,4 @@ Report generated: /Users/priyankajoshi/Documents/POC/repo/Nightwatch-POC/reports
 ```
 5. Check the reports folder for HTML Report
 
-![HTML_Report](https://github.com/priyanka-joshi/Nightwatch-POC/blob/master/screenshots/2018-07-27_1623.png)
+![HTML_Report](https://user-images.githubusercontent.com/25004490/43318389-3afc85f4-91be-11e8-8215-4b798c652c2f.png)
