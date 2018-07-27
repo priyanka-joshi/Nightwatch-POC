@@ -16,8 +16,8 @@ module.exports = {
         .signupInputVisible(browser)
         .enterEmailAddress(browser, email)
         .clickSignUpBtn(browser)
-        .assert.containsText('.signupConfirmationPanel .adb-local_alert','Thanks for registering.')
-        .assert.containsText('.signupConfirmationPanel .adb-local_alert', email)
+        .assert.containsText('.signupConfirmationPanel .adb-local_alert','Thanks for registering.', 'Sign up confirmation message is displayed')
+        .assert.containsText('.signupConfirmationPanel .adb-local_alert', email, email + ' is displayed along with confirmation message')
         .pause(10000)
         .end();
     },

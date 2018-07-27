@@ -1,8 +1,7 @@
 module.exports = {
     signupInputVisible: function (browser) {
         browser
-        .waitForElementVisible('input[name=emailAddress]', 1000)
-        .assert.visible('input[name=emailAddress]');
+        .waitForElementVisible('input[name=emailAddress]', 1000, 'Email input is visible on Sign up page')
         return this;
     },
     enterEmailAddress: function (browser, email) {
